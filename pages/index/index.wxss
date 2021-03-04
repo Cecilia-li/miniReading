@@ -1,0 +1,6 @@
+/**index.wxss**/
+/** 头部 **/
+/** 搜索栏 **/
+.input-search {
+  display: inline-block;
+}

@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="header">
+      <view class="search-bar">
+        <icon class="icon-small" type="search" size="14"></icon>
+        <input class="input-search" type="text" placeholder="搜索"></input>
+      </view>
+      <view>
+        <view>
+          <img src='#' />L 无限卡今日到期
+          <span>反馈</span>
+        </view>
+        <view>
+          <img />
+          <img />
+          <img />
+          <img />
+          <span>书架</span>
+        </view>
+      </view>
+  </view>
+</view>
