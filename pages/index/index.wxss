@@ -1,6 +1,35 @@
 /**index.wxss**/
-/** 头部 **/
+
 /** 搜索栏 **/
+.container {
+  padding: 10rpx 50rpx; 
+}
 .input-search {
   display: inline-block;
+  margin-left: 10rpx;
+  letter-spacing: 2rpx;
+}
+.search-bar {
+  background-color: #f0f0f0;
+  border-radius: 25rpx;
+  padding-left: 35rpx;
+  display: flex;
+  align-items: center;
+  height: 65rpx;
+}
+
+/** 卡片 **/
+.card {
+  background-color: #5B5B5B;
+  margin-top: 40rpx;
+  padding: 40rpx;
+}
+.card-head {
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.img-user {
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50rpx;
 }
