@@ -10,16 +10,62 @@
       <view class="card">
         <view class="card-head">
           <image class="img-user" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
-          <span>L 无限卡今日到期</span>
-          <span>反馈</span>
+          <text class="user-name">L</text>
+          <text class="due-date">无限卡今日到期</text>
+          <text class="tick">反馈</text>
         </view>
-        <view>
-          <img />
-          <img />
-          <img />
-          <img />
-          <span>书架</span>
+        <view class="card-content">
+          <image class="img-book" src="/assets/images/book.jpg"/>
+          <image class="img-book" src="/assets/images/book.jpg"/>
+          <image class="img-book" src="/assets/images/book.jpg"/>
+          <image class="img-book" src="/assets/images/book.jpg"/>
+          <view class="card-content-name">
+            <text class="card-content-area">书架</text>
+            <text>></text>
+          </view>
         </view>
       </view>
+  </view>
+
+  <view class="body">
+    <view class="nav">
+      <text>推荐</text>
+      <text>分类</text>
+      <text>排行</text>
+      <text>历史</text>
+      <text>男生小说</text>
+    </view>
+    <view class="body-container">
+      <image class="img-cover" src="/assets/images/book.jpg" />
+      <view>
+        <text class="dis-bk book-name">白话二十四史故事精选</text>
+        <text class="dis-bk mar-middle">陈永汉 | 8.5分</text>
+        <text class="dis-bk">阅读《史记》的人也在读</text>
+      </view>
+    </view>
+    <view class="body-container">
+      <image class="img-cover" src="/assets/images/book.jpg" />
+      <view>
+        <text class="dis-bk book-name">上下五千年（最新版）</text>
+        <text class="dis-bk mar-middle">林汉达等 | 8.1分</text>
+        <text class="dis-bk">阅读《史记》的人也在读</text>
+      </view>
+    </view>
+    <view class="body-container">
+      <image class="img-cover" src="/assets/images/book.jpg" />
+      <view>
+        <text class="dis-bk book-name">曾国藩家书（国家大书院）</text>
+        <text class="dis-bk mar-middle">曾国藩 | 8.5分</text>
+        <text class="dis-bk">阅读《史记》的人也在读</text>
+      </view>
+    </view>
+    <view class="body-container">
+      <image class="img-cover" src="/assets/images/book.jpg" />
+      <view>
+        <text class="dis-bk book-name">北大历史讲座</text>
+        <text class="dis-bk mar-middle">胡适等 | 8.1分</text>
+        <text class="dis-bk">阅读《彩图馆：资治通鉴》的人也在读</text>
+      </view>
+    </view>
   </view>
 </view>
